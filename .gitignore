@@ -4,10 +4,10 @@ learn-terraform-docker-container/*.tfstate.*
 
 # Exclude Local Terraform Directories
 # NOTE: The Double asterisk wildcard will match the current directory and any level of subdirectories
-**/\.terraform.*/*
+learn-terraform-docker-container/*.terraform/*
 
 # Exclude crash log files
-**/*.log
+learn-terraform-docker-container/*.log
 
 # Exclude sensitive data
-**/*.tfvars
+learn-terraform-docker-container/*.tfvars
