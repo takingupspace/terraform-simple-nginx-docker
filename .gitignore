@@ -1,1 +1,13 @@
-learn-terraform-docker-container/terraform.tfstate.*
+# Exclude State Files
+learn-terraform-docker-container/*.tfstate
+learn-terraform-docker-container/*.tfstate.*
+
+# Exclude Local Terraform Directories
+# NOTE: The Double asterisk wildcard will match the current directory and any level of subdirectories
+**/.terraform/*
+
+# Exclude crash log files
+**/*.log
+
+# Exclude sensitive data
+**/*.tfvars
